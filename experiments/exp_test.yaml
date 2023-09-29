@@ -1,0 +1,7 @@
+# experiments/exp_test.yaml
+action: train
+training:
+  batch_size: 10
+  n_epochs: 10
+model:
+  n: 18
