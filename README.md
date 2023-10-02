@@ -10,7 +10,7 @@ We train the model, this has more hyperparameters.
 
 We set up all the hyperparameters in the config file, and then we have an easy way to repeat an experiment.
 
-# An example
+## An example config file
 
 Check out [`simpleyacs/config.py`](simpleyacs/config.py) to see the possible config options. This is a master list of all the hyperparameters.
 
@@ -33,3 +33,5 @@ python run.py experiments/exp_test.yaml
 ```
 
 The code will create an output directory, it will copy the config file there and it will also store results there.
+
+For a less brief explanation, see [here](https://cmjb.tech/blog/2023/09/30/exp-config-files/).
